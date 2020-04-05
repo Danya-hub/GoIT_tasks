@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    background-image: url(https://cdn.humoraf.ru/wp-content/uploads/2017/08/23-14.jpg);
+    height: 577px;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3z));
+}

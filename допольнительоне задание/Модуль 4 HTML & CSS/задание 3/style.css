@@ -1,0 +1,14 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.a::before {
+    content: "\2192";
+    margin-right: 10px;
+    color: gray;
+}
+
+.a {
+    color: black;
+}

@@ -1,0 +1,21 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.list {
+    margin-left: calc(50% - 250px);
+}
+
+.li {
+    float: left;
+    margin-right: 20px;
+}
+
+.li:last-child {
+    margin-right: 0px;
+}
+
+.li:hover {
+    color: gray;
+}

@@ -1,0 +1,32 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.li {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 2px;
+    margin-bottom: 10px;
+}
+
+.li:nth-child(3n+1) {
+    background-color: #88292F;
+}
+
+.li:nth-child(3n+2) {
+    background-color: #5DB7DE;
+}
+
+.li:nth-child(3n+3) {
+    background-color: #0D5D56;
+}
+
+.span {
+    color: #0E1116;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
